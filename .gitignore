@@ -139,6 +139,8 @@ dist
 .vscode-test
 
 ### Vim ###
+# CocConfig
+.vim/coc-settings.json
 # Swap
 [._]*.s[a-v][a-z]
 !*.svg  # comment out if you don't need vector files
