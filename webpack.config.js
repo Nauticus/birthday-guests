@@ -8,7 +8,7 @@ module.exports = {
     mode: process.env.NODE_ENV === "development" ? "development" : "production",
     output: {
         filename: "main.js",
-        path: path.resolve(__dirname, "dist/")
+        path: path.resolve(__dirname, "dist/"),
     },
     module: {
         rules: [
@@ -16,21 +16,18 @@ module.exports = {
                 test: /\.ts?$/,
                 exclude: /node_modules/,
                 loader: "babel-loader",
-                query: {
-                    presets: ["@babel/preset-env", "@babel/preset-typescript"]
-                }
-            }
-        ]
+            },
+        ],
     },
     resolve: {
-        extensions: [".ts", ".js"]
+        extensions: [".ts", ".js"],
     },
     plugins: [new CleanWebpackPlugin()],
     stats: {
         // Ignore warnings due to yarg's dynamic module loading
-        warningsFilter: [/node_modules\/yargs/]
+        warningsFilter: [/node_modules\/yargs/],
     },
     performance: {
-        hints: process.env.NODE_ENV === "production" ? "warning" : false
-    }
+        hints: process.env.NODE_ENV === "production" ? "warning" : false,
+    },
 };
