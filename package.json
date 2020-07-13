@@ -5,10 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --progress --config webpack.config.js",
-    "start": "yarn build && node dist/main.js",
+    "start": "node dist/main.js",
     "test": "yarn build && mocha -w",
-    "flow": "flow",
-    "flow-typed": "flow-typed"
+    "mocha": "mocha"
   },
   "author": "Emanuil Ganchev",
   "license": "ISC",
@@ -16,21 +15,26 @@
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
-    "@babel/preset-flow": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/commander": "^2.12.2",
+    "@types/lodash": "^4.14.157",
+    "@types/validator": "^13.1.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
     "clean-webpack-plugin": "^3.0.0",
     "cross-env": "^7.0.2",
-    "eslint-plugin-flowtype": "^5.2.0",
-    "flow-bin": "^0.129.0",
-    "flow-typed": "^3.1.0",
+    "eslint": "^7.4.0",
     "mocha": "^8.0.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
+    "commander": "^5.1.0",
     "decoders": "^1.22.2",
-    "yargs": "^15.4.1"
+    "lodash": "^4.17.19",
+    "validator": "^13.1.1"
   }
 }

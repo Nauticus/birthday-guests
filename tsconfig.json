@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "module": "ES6",
+    "target": "ES5",
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "app/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
+

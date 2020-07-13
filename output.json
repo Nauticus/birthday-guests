@@ -1,0 +1,27 @@
+{
+  "guests": [
+    { "partner_id": 1, "name": "Jamelia Waller" },
+    { "partner_id": 3, "name": "Gracie-Leigh Mccallum" },
+    { "partner_id": 5, "name": "Margot Mckay" },
+    { "partner_id": 6, "name": "Jodie Dyer" },
+    { "partner_id": 8, "name": "Ffion Firth" },
+    { "partner_id": 9, "name": "Billie-Jo Dunlap" },
+    { "partner_id": 10, "name": "Sachin Chan" },
+    { "partner_id": 11, "name": "Una Beach" },
+    { "partner_id": 12, "name": "Bluebell Robles" },
+    { "partner_id": 13, "name": "Nur Combs" },
+    { "partner_id": 14, "name": "Vincenzo Conner" },
+    { "partner_id": 16, "name": "Maddy Novak" },
+    { "partner_id": 17, "name": "Kodi Collier" },
+    { "partner_id": 18, "name": "Vladimir Vasov" },
+    { "partner_id": 19, "name": "Butterfree Crackersprout" },
+    { "partner_id": 20, "name": "Oscarbait Crackersprout" },
+    { "partner_id": 21, "name": "Bendydick Chickenstrips" },
+    { "partner_id": 24, "name": "Rada Ilieva" },
+    { "partner_id": 25, "name": "Bombadil Rivendell" },
+    { "partner_id": 27, "name": "Francisco Fleming" },
+    { "partner_id": 28, "name": "Romy Harrison" },
+    { "partner_id": 30, "name": "Bunsenburner Crumplehorn" },
+    { "partner_id": 39, "name": "Patience Lyon" }
+  ]
+}
